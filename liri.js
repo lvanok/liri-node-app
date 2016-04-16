@@ -11,7 +11,27 @@ client.get('statuses/user_timeline', params, function(error, tweets, response){
 });
 
 
+// var request = require('request');
+// request('http://img.omdbapi.com/?apikey=[yourkey]&', function (error, response, body) {
+//   if (!error && response.statusCode == 200) {
+//     console.log(body) // Show the HTML for the Google homepage.
+//     var fs = require('fs'); //reads and writes files
+//     fs.writeFile("index.html", body, function(err) {
+//         if(err) {
+//             return console.log(err);
+//         }
+//     });
+//     }
+// });
 
+
+// var request = require('request');
+// movie = process.argv[2];
+// request("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&r=json", function (error, response, body) {
+//   if (!error && response.statusCode == 200) {
+//     console.log(body) // Show the HTML for the Google homepage.
+//     }
+// });
 // my-tweets
 
 // spotify-this-song
