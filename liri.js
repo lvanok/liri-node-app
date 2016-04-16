@@ -1,15 +1,8 @@
-var twitter = require('twitter')   // -- looks for npm psvkshr
 var keys = require('./keys.js')   // looks for a file 
 
-var Twitter = require('twitter');
+var Twitter = require('twitter');  // --looks for npm psvkshr
  
-var client = new Twitter({
-  consumer_key: '',
-  consumer_secret: '',
-  access_token_key: '',
-  access_token_secret: ''
-});
- 
+
 var params = {screen_name: 'nodejs'};
 client.get('statuses/user_timeline', params, function(error, tweets, response){
   if (!error) {
